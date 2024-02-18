@@ -108,7 +108,7 @@
 "Check for updates…" = "Nach Updates suchen…";
 
 /*Menubar option*/
-"Check permissions…" = "Check permissions…";
+"Check permissions…" = "Überprüfe Berechtigungen…";
 
 /*No comment provided by engineer.*/
 "Close window" = "Fenster schließen";
@@ -370,6 +370,9 @@
 
 /*No comment provided by engineer.*/
 "Start at login:" = "Beim Anmelden starten:";
+
+/*Menubar option*/
+"Support this project ❤️" = "Support this project ❤️";
 
 /*No comment provided by engineer.*/
 "Theme:" = "Thema:";
