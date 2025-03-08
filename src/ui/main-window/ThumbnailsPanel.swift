@@ -1,6 +1,6 @@
 import Cocoa
 
-class ThumbnailsPanel: NSPanel, NSWindowDelegate {
+class ThumbnailsPanel: NSPanel {
     var thumbnailsView = ThumbnailsView()
     override var canBecomeKey: Bool { true }
 
@@ -10,7 +10,7 @@ class ThumbnailsPanel: NSPanel, NSWindowDelegate {
         isFloatingPanel = true
         animationBehavior = .none
         hidesOnDeactivate = false
-        hasShadow = false
+        hasShadow = Appearance.enablePanelShadow
         titleVisibility = .hidden
         backgroundColor = .clear
         contentView! = thumbnailsView
@@ -25,16 +25,6 @@ class ThumbnailsPanel: NSPanel, NSWindowDelegate {
         setAccessibilityLabel(App.name)
     }
 
-    func windowDidResignKey(_ notification: Notification) {
-        // other windows can steal key focus from alt-tab; we make sure that if it's active, if keeps key focus
-        // dispatching to the main queue is necessary to introduce a delay in scheduling the makeKey; otherwise it is ignored
-        DispatchQueue.main.async {
-            if App.app.appIsBeingUsed {
-                App.app.thumbnailsPanel.makeKeyAndOrderFront(nil)
-            }
-        }
-    }
-
     override func orderOut(_ sender: Any?) {
         if Preferences.fadeOutAnimation {
             NSAnimationContext.runAnimationGroup(
@@ -47,17 +37,30 @@ class ThumbnailsPanel: NSPanel, NSWindowDelegate {
     }
 
     func show() {
+        hasShadow = Appearance.enablePanelShadow
         alphaValue = 1
         makeKeyAndOrderFront(nil)
         MouseEvents.toggle(true)
         thumbnailsView.scrollView.flashScrollers()
     }
 
-    static func widthMax(_ screen: NSScreen) -> CGFloat {
-        return screen.frame.width * Preferences.maxWidthOnScreen - Preferences.windowPadding * 2
+    static func maxThumbnailsWidth() -> CGFloat {
+        return (NSScreen.preferred.frame.width * Appearance.maxWidthOnScreen - Appearance.windowPadding * 2).rounded()
     }
 
-    static func heightMax(_ screen: NSScreen) -> CGFloat {
-        return screen.frame.height * Preferences.maxHeightOnScreen - Preferences.windowPadding * 2
+    static func maxThumbnailsHeight() -> CGFloat {
+        return (NSScreen.preferred.frame.height * Appearance.maxHeightOnScreen - Appearance.windowPadding * 2).rounded()
+    }
+}
+
+extension ThumbnailsPanel: NSWindowDelegate {
+    func windowDidResignKey(_ notification: Notification) {
+        // other windows can steal key focus from alt-tab; we make sure that if it's active, if keeps key focus
+        // dispatching to the main queue is necessary to introduce a delay in scheduling the makeKey; otherwise it is ignored
+        DispatchQueue.main.async {
+            if App.app.appIsBeingUsed {
+                App.app.thumbnailsPanel.makeKeyAndOrderFront(nil)
+            }
+        }
     }
 }

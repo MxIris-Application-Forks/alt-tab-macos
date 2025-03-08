@@ -10,10 +10,10 @@ They helped [develop the app](https://github.com/lwouis/alt-tab-macos/graphs/con
 * [Calinou](https://github.com/Calinou)
 * [damonpam](https://github.com/damonpam)
 * [decodism](https://github.com/decodism)
+* [delaneyb](https://github.com/delaneyb)
 * [gingerr](https://github.com/gingerr)
 * [GrzegorzKazana](https://github.com/GrzegorzKazana)
 * [hughlilly](https://github.com/hughlilly)
-* [i0ntempest](https://github.com/i0ntempest)
 * [karbassi](https://github.com/karbassi)
 * [L1cardo](https://github.com/L1cardo)
 * [lwouis](https://github.com/lwouis)
@@ -26,10 +26,10 @@ They helped [develop the app](https://github.com/lwouis/alt-tab-macos/graphs/con
 * [rbnis](https://github.com/rbnis)
 * [Rjevski](https://github.com/Rjevski)
 * [samdenty](https://github.com/samdenty)
+* [SaswatB](https://github.com/SaswatB)
 * [ShlomoCode](https://github.com/ShlomoCode)
 * [skolj](https://github.com/skolj)
 * [xanathar](https://github.com/xanathar)
-* [xconverge](https://github.com/xconverge)
 * [zacharee](https://github.com/zacharee)
 
 They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
@@ -41,15 +41,24 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Abdur-Rahman Bilal
 * Aden Aziz
 * Admin
+* Aindriú Mac Giolla Eoin
+* Ajaykumarmkaju
+* Aku
 * Albert Abdilim
+* Aleksander Bang-Larsen
 * Alex
 * Alexander Kilian
+* Alexey Eremeev
+* Ali
 * Ali Gokmen
 * Ali. tas103
 * Allen Guan
+* Alonso Chen
 * Ameng
 * Anders
+* Andreas Wagner
 * Andrew Vader
+* antoon334
 * Anurag Roy
 * anushree b
 * Arman
@@ -59,6 +68,7 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * blanorama
 * bluefirex
 * bovirus
+* BV Joshi
 * caduellery
 * Caner İlhan
 * catcore
@@ -71,21 +81,25 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Darius Rosendahl
 * Darko
 * David R
+* Dékány Martin
 * Didier Deschrijver
 * Dzhuneyt
 * EDUARDO
 * edu_sombra
+* Eimantas
 * Eliezer Shpigelman
-* Emil Pedersen
 * Eric WANTZ
 * Ersagun Kuruca
+* EUKA
 * Eukarya
 * Eyelly wu
+* fil
 * Filipe
 * Frangarciasalomon
 * Frank
 * Friendship1
 * Fukuda
+* Ganesh Sawant
 * Gezimos
 * Giacomo Volpi
 * Giang
@@ -96,6 +110,7 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Gumpanath Puttarassu
 * hann-solo
 * Haoshuai Xu
+* Hao豪
 * Hjörtur Hjartarson
 * Hokuto Kato
 * Huandngoc
@@ -111,31 +126,40 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Jakob
 * Jakob Licina
 * Jakub Bartušek
+* Jesus Angel Villafuerte
 * jiho4
 * Jisan
 * Joao Vitor Casarin
 * Jord Nijhuis
+* Jui Yuan Liu
 * Jules Beckers
 * Julian Nowaczyk
 * Julio
+* justcontributor
 * Kagurazaka Tsuki
 * kal
 * kant
+* Kawarimidoll+git
 * kazuki sakamoto
 * Kevinsevinche
+* KillianG
 * Kinyagulovrr
 * Klara
+* Kostiantyn Ko
 * Kristófer Fannar Björnsson
 * Kushnee5
 * Kuuchi
+* L
 * Lakshman Kolappan
 * Lasse Mattila
 * Lcwhhh
 * Lester
 * Loïc 
+* Loic. peron
 * LostInCompilation
 * Lumaxis
 * lwouis
+* Malo
 * Maplevantablack
 * Marc Pla
 * Marcus Billman
@@ -149,6 +173,7 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Max
 * Maximilian Falk
 * MaximilianFreitag
+* Mehmet Ali Ertorer
 * Meriç Bağlayan
 * Michael
 * Milos M
@@ -157,20 +182,25 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * MuDraconis
 * Muzhenstudent
 * Mwolfinspace
+* Naseeb Naushad
 * Nathancodes
+* Navekar Vishal
 * Nikola Rajić
 * Nils Fahldieck
 * Nilton Souza
 * Nmolham
 * Nuriddin Islamov
 * Ori
+* Paul Pichaureau
+* Paul Przybyszewski
+* Paul. pichaureau
 * Paulius
 * Pehovorka
 * Peterkim0620
 * Petr Kolář
 * Piotr Budny
-* ponchik
 * Quentin. douarre
+* Rami Elsawy
 * Raphaël
 * Rasmus
 * Raymonf
@@ -179,9 +209,12 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * rbnis
 * rei fujise
 * Roccobot
+* Roccobot
 * Rodrigo Schneider
 * Ron Nuss
+* sa-ha
 * sawtooth
+* Sebastian
 * Selcuk Dursun
 * Sergey
 * Seyedparsa Mirtaheri
@@ -191,13 +224,19 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * shlomo
 * Sippawit Thammawiset
 * Sjur Moshagen
+* Sjur.n. moshagen
 * Stan Smits
 * Stefan
+* Stefan Lange
 * Svetoslav Stefanov
 * Thomas Wölk
 * Thorsten
+* Thorsten
 * Tomoa Nozawa
+* Trevor
+* Tsilimpotis Dimitrios
 * Umutakkaya1996
+* User23483
 * Vadym
 * Vijayant Saini
 * Vincent Orback
@@ -206,14 +245,17 @@ They helped [localize the app](https://poeditor.com/join/project/8AOEZ0eAZE):
 * Wesley Matos
 * Whatsmine-HaoshuaiXu
 * Wilhelm Wolfgang Gärtner
-* Wowpapa3232
 * wtwt0119!!
 * Yongsung Yoon
+* Yorben
 * Yossi Zahn
 * ysaito
 * Yukai
 * yumechan
 * Yusuf Caliskan
+* Zuhaib Syed
+* 林清
 * 橙梓
 * Ивайло
 * Андрій Кирбаба
+* Τσιλιμπότης Δημ.
